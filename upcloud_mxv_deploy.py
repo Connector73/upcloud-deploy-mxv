@@ -16,7 +16,7 @@ new_server_request_body = {
         "zone": "fi-hel1",
         "plan": "2xCPU-4GB",
         "firewall": "on",
-        "title": "MXV 14.0.6 script test 2",
+        "title": "MXV 14.0.6",
         "hostname": "localhost",
         "password_delivery":"none",
         "user_data" : "sh -c \"yum install -y unzip; wget https://fileshare.connector73.net/mxv1406-raw/mxv-14.0.6-raw.zip; unzip mxv-14.0.6-raw.zip; dd if=disk1.raw of=/dev/vdb bs=16M oflag=direct;dd if=disk2.raw of=/dev/vdc bs=16M oflag=direct;dd if=disk3.raw of=/dev/vdd bs=16M oflag=direct; shutdown -h now\"",
